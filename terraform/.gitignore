@@ -1,0 +1,26 @@
+# Ignore Terraform state files in all modules
+**/*.tfstate
+**/*.tfstate.*
+**/*.backup
+**/*.tfplan
+
+# Ignore .terraform directories in all modules
+**/.terraform/
+
+# Ignore local .terraformrc file in all modules
+**/.terraformrc
+
+# Ignore .tfvars files in all modules
+**/*.auto.tfvars
+**/*.auto.tfvars.json
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore override files in all modules
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Ignore CLI configuration file in all modules
+**/terraform.rc
